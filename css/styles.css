@@ -1,0 +1,233 @@
+/* Fonts */
+.jersey-15-regular {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-20-regular {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    font-family: "Jersey 20", Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Body */
+body {
+    background-color: darkslategray ;
+    color: white;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0px;
+
+    z-index: 10;
+    
+    background-color: #091010;
+}
+
+header ul {
+    margin: 0;
+    padding: 10px, 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    list-style: none;
+}
+
+header li {
+    font-size: 32px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 48px;
+}
+
+/* Footer */
+footer {
+    background-color: #091010;
+}
+
+footer ul {
+    margin: 0px 10px;
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+
+    list-style: none;
+}
+
+footer h1 {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 36px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+}
+
+footer li {
+    font-size: 20px;
+}
+
+/* Main */
+main {
+    background-color: darkslategray;
+}
+
+/* Divider */
+.Divider {
+    background-color: dimgray;
+
+    margin: 0;
+    padding: 10px;
+}
+
+.Divider h1 {
+    margin: 0;
+    padding: 0 20px;
+
+    font-size: 48px;
+}
+
+/* About */
+#About {
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+}
+
+#About img {
+    width: 100%;
+}
+
+#About div {
+    position: sticky;
+    bottom: 100px;
+    left: 50px;
+
+    margin-top: -270px;
+    margin-bottom: 80px;
+    padding: 10px 0;
+
+    width: 80%;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#About div h1 {
+    margin: 10px;
+    padding: 0 20px;
+
+    font-size: 48px;
+}
+
+#About div p {
+    margin: 10px;
+    padding: 0 50px;
+    
+    font-size: 24px;
+}
+
+/* Project Grid */
+.ProjectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    
+    justify-content: center;
+
+    gap: 10vw;
+    padding: 5vw;
+}
+
+/* Project Tile */
+.Project {
+    position: relative;
+
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Project img {
+    width: 100%;x;
+}
+
+.Project h1 {
+    position: absolute;
+    top: 333px;
+
+    margin: 0;
+    padding: 10px 0;
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    width: 95%;
+}
+
+.Project p {
+    margin: 5px 0;
+    padding: 0 10px;
+
+    font-size: 24px;
+}
+
+.Project ul {
+    margin: 5px 0;
+    padding: 0 30px;
+
+    font-size: 20px;
+}
+
+.Project a {
+    font-size: 32px;
+}
+
+/* Links */
+* a:link {
+    color: skyblue;
+    text-decoration: none;
+}
+
+* a:visited {
+    color: skyblue;
+}
+
+* a:focus {
+    color: darkslategray;
+}
+
+* a:hover {
+    color: darkslategray;
+}
+
+* a:active {
+    color: blue;
+}
+
+/* Project Specific changes */
+#FallInOrder h1 {
+    top: 334px
+}
+
+#OneShot h1 {
+    top: 255px;
+}
